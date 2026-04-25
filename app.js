@@ -342,7 +342,7 @@ const SEASON_EVENTS = [
   },
 {
     date: '2026-12-06T12:00',
-    title: 'CONCERT - CLASSIC CHIRSTMAS',
+    title: 'CONCERT - CLASSIC CHRISTMAS',
     type: 'concert',
     details: "Program TBA",
     time: '3:00 PM',
