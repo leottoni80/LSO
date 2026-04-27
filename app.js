@@ -1122,6 +1122,7 @@ window.showPage = function(id) {
 /* ---------- CONTACT FORM ---------- */
 function submitForm(e) {
   e.preventDefault();
+
   const form = document.getElementById('contactForm');
   const fname = form.fname.value.trim();
   const lname = form.lname.value.trim();
@@ -1129,23 +1130,25 @@ function submitForm(e) {
   const subject = form.subject.value;
   const message = form.message.value.trim();
 
-  // Build mailto link
   const to = 'lrosario@leeuniversity.edu';
-  const mailSubject = encodeURIComponent(`[Orchestra Website] ${subject} – ${fname} ${lname}`);
-  const body = encodeURIComponent(
-    `Name: ${fname} ${lname}\nEmail: ${email}\nSubject: ${subject}\n\nMessage:\n${message}`
+
+  const mailSubject = encodeURIComponent(
+    `[Orchestra Website] ${subject} – ${fname} ${lname}`
   );
+
+  const body = encodeURIComponent(
+    `Name: ${fname} ${lname}
+Email: ${email}
+
+Message:
+${message}`
+  );
+
   const mailtoLink = `mailto:${to}?subject=${mailSubject}&body=${body}`;
 
-  // Open default mail client
   window.location.href = mailtoLink;
-
-  // Show success state
-  setTimeout(() => {
-    form.style.display = 'none';
-    document.getElementById('formSuccess').style.display = 'block';
-  }, 600);
 }
+``
 
 /* ============================================================
    MUSIC SCORES — DRILL-DOWN NAVIGATION
