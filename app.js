@@ -76,6 +76,22 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+   {
+    date: '2026-09-30T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
+   {
+    date: '2026-08-31T12:00',
+    title: 'Rehearsal',
+    type: 'rehearsal',
+    details: 'Regular rehearsal',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
 // ── SEPTEMBER 2026 ──────────────────────────────────────────
   {
     date: '2026-09-02T12:00',
