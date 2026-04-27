@@ -1309,7 +1309,23 @@ const SCORES_DATA = {
         title: 'Petite Suite',
         concert: 'Concert 2',
         folder: 'Debussy',
-        parts: []  // ⚠️ No files uploaded yet for Concert 2 — add when available
+        parts: [
+          { family: 'Woodwinds', name: 'Flute 1 & 2',          file: 'Woodwinds/Debussy - Flute 1 & 2.pdf' },
+          { family: 'Woodwinds', name: 'Oboe 1 & 2',           file: 'Woodwinds/Debussy - Oboe 1 & 2.pdf' },
+          { family: 'Woodwinds', name: 'Clarinet 1 & 2',  file: 'Woodwinds/Debussy - Clarinet 1 & 2.pdf' },
+          { family: 'Woodwinds', name: 'Bassoon 1 & 2',        file: 'Woodwinds/Debussy - Bassoon 1 & 2.pdf' },
+          { family: 'Brass',     name: 'Horn 1 & 2',           file: 'Brass/Debussy - Horn 1 & 2.pdf' },
+          { family: 'Brass',     name: 'Trumpet 1 & 2 in C',        file: 'Brass/Debussy - Trumpet 1 & 2 in C.pdf' },
+          { family: 'Percussion', name: 'Timpani',          file: 'Percussion/Debussy - Timpani.pdf' },
+           { family: 'Percussion', name: 'Cymbals',          file: 'Percussion/Debussy - Cymbals.pdf' },
+           { family: 'Percussion', name: 'Tambourine',          file: 'Percussion/Debussy - Tambourine.pdf' },
+           { family: 'Percussion', name: 'Trinagle',          file: 'Percussion/Debussy - Triangle.pdf' },
+          { family: 'Strings',    name: 'Violin I',         file: 'Strings/Debussy - Violin 1.pdf' },
+          { family: 'Strings',    name: 'Violin II',        file: 'Strings/Debussy - Violin 2.pdf' },
+          { family: 'Strings',    name: 'Viola',            file: 'Strings/Debussy - Viola.pdf' },
+          { family: 'Strings',    name: 'Cello',            file: 'Strings/Debussy - Cello.pdf' },
+          { family: 'Strings',    name: 'Bass',             file: 'Strings/Debussy - Bass.pdf' },                
+        ]  
       },
       {
         id: 'brahms',
