@@ -604,7 +604,7 @@ const SEASON_EVENTS = [
     location: 'IRR'
   },
     {
-    date: '2027-03-16T12:00',
+    date: '2027-03-19T12:00',
     title: 'Strings Sectional',
     type: 'special-rehearsal',
     details: 'Strings Sectional',
