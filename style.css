@@ -1340,15 +1340,11 @@ footer {
   .form-row { grid-template-columns: 1fr; }
   
   .cal-day { min-height: 60px; }
-  .cal-event-dot { display: none; }
-  .cal-day.has-event::after {
-    content: '';
-    display: block;
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: var(--gold);
-    margin: 2px auto 0;
-  }
+  .cal-event-dot {
+  transform: scale(0.6);
+  opacity: 0.9;
+}
+  
 .month-trigger {
   cursor: pointer;
   user-select: none;
