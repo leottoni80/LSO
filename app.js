@@ -1333,7 +1333,41 @@ const SCORES_DATA = {
         title: 'Symphony No. 1 in C minor, Op. 68',
         concert: 'Concert 2',
         folder: 'Brahms',
-        parts: []  // ⚠️ No files uploaded yet for Concert 2 — add when available
+        parts: [
+          { family: 'Woodwinds', name: 'Flute 1',          file: 'Woodwinds/Brahms - Flute 1.pdf' },
+          { family: 'Woodwinds', name: 'Flute 2',          file: 'Woodwinds/Brahms - Flute 2.pdf' },
+          { family: 'Woodwinds', name: 'Oboe 1',           file: 'Woodwinds/Brahms - Oboe 1.pdf' },
+          { family: 'Woodwinds', name: 'Oboe 2',           file: 'Woodwinds/Brahms - Oboe 2.pdf' },
+          { family: 'Woodwinds', name: 'Clarinet',  file: 'Woodwinds/Rimsky-Op36.Clarinet 1 in C.pdf' },
+          { family: 'Woodwinds', name: 'Clarinet 2',  file: 'Woodwinds/Rimsky-Op36.Clarinet 2 in C.pdf' },
+          { family: 'Woodwinds', name: 'Bassoon 1',        file: 'Woodwinds/Brahms - Bassoon 1.pdf' },
+          { family: 'Woodwinds', name: 'Bassoon 2',        file: 'Woodwinds/Brahms - Bassoon 2.pdf' },
+           { family: 'Woodwinds', name: 'Contrabassoon',        file: 'Woodwinds/Brahms - Contrabassoon.pdf' },
+          { family: 'Brass',     name: 'Horn 1',           file: 'Brass/Brahms - Horn 1.pdf' },
+             { family: 'Brass',     name: 'Horn 1 in F',           file: 'Brass/Brahms - Horn 1 in F.pdf' },
+          { family: 'Brass',     name: 'Horn 2',           file: 'Brass/Brahms - Horn 2.pdf' },
+            { family: 'Brass',     name: 'Horn 1 & 2 in F',           file: 'Brass/Brahms - Horn 1 & 2 in F.pdf' },
+          { family: 'Brass',     name: 'Horn 3',           file: 'BrassBrahms - Horn 3.pdf' },
+           { family: 'Brass',     name: 'Horn 3 & 4 in F',           file: 'Brass/Brahms - Horn 3 & 4 in F.pdf' },
+          { family: 'Brass',     name: 'Horn 4',           file: 'Brass/Brahms - Horn 4.pdf' },
+           { family: 'Brass',     name: 'Horn 4 in F',           file: 'Brass/Brahms - Horn 4 in F.pdf' },
+          { family: 'Brass',     name: 'Trumpet 1',        file: 'BrassBrahms - Trumpet 1.pdf' },
+           { family: 'Brass',     name: 'Trumpet 1 in B-flat',        file: 'BrassBrahms - Trumpet 1 in B-flat.pdf' },
+          { family: 'Brass',     name: 'Trumpet 2',        file: 'Brass/Brahms - Trumpet 2.pdf' },
+             { family: 'Brass',     name: 'Trumpet 2 in B-flat',        file: 'BrassBrahms - Trumpet 2 in B-flat.pdf' },
+          { family: 'Brass',     name: 'Trombone 1',       file: 'Brass/Brahms - Trombone 1.pdf' },
+          { family: 'Brass',     name: 'Trombone 2',       file: 'Brass/Brahms - Trombone 2.pdf' },
+            { family: 'Brass',     name: 'Trombone 3',       file: 'Brass/Brahms - Trombone 3.pdf' },
+          { family: 'Brass',     name: 'Tuba',             file: 'Brass/Brahms - Tuba.pdf' },
+          { family: 'Percussion', name: 'Timpani',          file: 'Percussion//Brahms - Timpani.pdf' },
+          { family: 'Strings',    name: 'Violin I',         file: 'Strings/Brahms - Violin 1.pdf' },
+          { family: 'Strings',    name: 'Violin II',        file: 'Strings/Brahms - Violin 2.pdf' },
+          { family: 'Strings',    name: 'Viola',            file: 'Strings/Brahms - Viola.pdf' },
+          { family: 'Strings',    name: 'Cello',            file: 'Strings/Brahms - Cello.pdf' },
+          { family: 'Strings',    name: 'Bass',             file: 'Brahms - Bass.pdf' },
+
+           
+        ]  
       },
     ]
   }
