@@ -1330,6 +1330,31 @@ footer {
     gap: 0.5rem;
     border-bottom: 1px solid rgba(201,168,76,0.2);
   }
+   
+/* Base mobile event dot */
+  .cal-day.has-event::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 2px auto 0;
+  }
+
+  /* Category-specific colors */
+  .cal-day.has-event.concert::after {
+    background: var(--concert-color);
+  }
+
+  .cal-day.has-event.rehearsal::after {
+    background: var(--rehearsal-color);
+  }
+
+  .cal-day.has-event.special-rehearsal::after {
+    background: var(--special-rehearsal-color);
+  }
+}
+
   .nav-links.open { display: flex; }
   .nav-links a { padding: 0.75rem 1rem; font-size: 0.85rem; }
   
@@ -1341,7 +1366,8 @@ footer {
   
   .cal-day { min-height: 60px; }
   .cal-event-dot { display: none; }
-  .cal-day.has-event::after {
+/* REMOVE THIS — it flattens all categories  
+.cal-day.has-event::after {
     content: '';
     display: block;
     width: 6px; height: 6px;
@@ -1349,6 +1375,7 @@ footer {
     background: var(--gold);
     margin: 2px auto 0;
   }
+*/
 .month-trigger {
   cursor: pointer;
   user-select: none;
