@@ -77,7 +77,7 @@ const SEASON_EVENTS = [
     location: 'IRR'
   },
    {
-    date: '2026-09-30T12:00',
+    date: '2026-08-28T12:00',
     title: 'Strings Sectional',
     type: 'special-rehearsal',
     details: 'Strings Sectional',
@@ -133,6 +133,14 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+    {
+    date: '2026-09-18T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
 {
     date: '2026-09-21T12:00',
     title: 'Rehearsal',
@@ -168,7 +176,15 @@ const SEASON_EVENTS = [
   },
 
 // ── OCTOBER 2026 ──────────────────────────────────────────
-  {
+   {
+    date: '2026-10-02T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
+   {
     date: '2026-10-05T12:00',
     title: 'Rehearsal',
     type: 'rehearsal',
@@ -272,6 +288,18 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+   {
+    date: '2026-11-06T12:00',
+    title: 'Homecoming',
+    type: ' ',
+    details: 'Homecoming'
+  },
+   {
+    date: '2026-11-07T12:00',
+    title: 'Homecoming',
+    type: ' ',
+    details: 'Homecoming'
+  },
 {
     date: '2026-11-09T12:00',
     title: 'Rehearsal',
@@ -287,6 +315,18 @@ const SEASON_EVENTS = [
     details: 'Regular rehearsal',
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
+  },
+   {
+    date: '2026-11-13T12:00',
+    title: 'Honor Band & Orchestra',
+    type: ' ',
+    details: 'Honor Band & Orchestra'
+  },
+   {
+    date: '2026-11-14T12:00',
+    title: 'Honor Band & Orchestra',
+    type: ' ',
+    details: 'Honor Band & Orchestra'
   },
 {
     date: '2026-11-16T12:00',
@@ -404,6 +444,14 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+    {
+    date: '2027-01-29T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
 {
     date: '2027-01-31T12:00',
     title: 'Convocation',
@@ -465,6 +513,14 @@ const SEASON_EVENTS = [
     title: 'Rehearsal',
     type: 'rehearsal',
     details: 'Regular rehearsal',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
+    {
+    date: '2027-02-19T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
@@ -547,6 +603,14 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+    {
+    date: '2027-03-16T12:00',
+    title: 'Strings Sectional',
+    type: 'special-rehearsal',
+    details: 'Strings Sectional',
+    time: '3:35 PM – 5:30 PM',
+    location: 'IRR'
+  },
 {
     date: '2027-03-22T12:00',
     title: 'Rehearsal',
@@ -601,13 +665,13 @@ const SEASON_EVENTS = [
     note: 'Call time: 7 PM<br>Attire: All-black',
   },
  {
-    date: '2027-03-02T12:00',
+    date: '2027-04-02T12:00',
     title: 'Lee Day',
     type: ' ',
     details: 'Lee Day'
   },
 {
-    date: '2027-03-03T12:00',
+    date: '2027-04-03T12:00',
     title: 'Lee Day',
     type: ' ',
     details: 'Lee Day'
