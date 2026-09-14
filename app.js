@@ -280,6 +280,14 @@ const SEASON_EVENTS = [
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
   },
+ {
+    date: '2026-11-03T12:00',
+    title: 'Celebration Rehearsal',
+    type: 'special-rehearsal',
+    details: 'Celebration rehearsal',
+    time: '6:00 PM – 9:00 PM',
+    location: 'Conn Center'
+  },
 {
     date: '2026-11-04T12:00',
     title: 'Rehearsal',
@@ -287,6 +295,38 @@ const SEASON_EVENTS = [
     details: 'Regular rehearsal',
     time: '3:35 PM – 5:30 PM',
     location: 'IRR'
+  },
+   {
+    date: '2026-11-04T12:00',
+    title: 'Celebration Dress Rehearsal',
+    type: 'special-rehearsal',
+    details: 'Celebration dress rehearsal',
+    time: '6:00 PM – 9:00 PM',
+    location: 'Conn Center'
+  },
+   {
+    date: '2026-11-05T12:00',
+    title: 'Celebration Chapel',
+    type: 'concert',
+    details: 'Celebration Chapel',
+    time: '10:45 AM – 11:30 AM',
+    location: 'Conn Center'
+  },
+   {
+    date: '2026-11-06T12:00',
+    title: 'Celebration',
+    type: 'concert',
+    details: 'Celebration \n 10:30 AM - Celebration 2026 \n 5- 6 PM - SOM-Privided Meal/Diner (CUR-IRR)',
+    time: '10:30 AM',
+    location: 'Conn Center'
+  },
+    {
+    date: '2026-11-06T12:00',
+    title: 'Music Showcase',
+    type: 'concert',
+    details: 'Music Showcase \n 5- 6 PM - SOM-Privided Meal/Diner (CUR-IRR) \n 7:00 PM - Music Showcase',
+    time: '7:00 PM',
+    location: 'Conn Center'
   },
    {
     date: '2026-11-06T12:00',
