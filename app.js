@@ -171,7 +171,7 @@ const SEASON_EVENTS = [
     title: 'Late Rehearsal',
     type: 'special-rehearsal',
     details: 'Late rehearsal',
-    time: '5:00 PM – 7:00 PM',
+    time: '6:00 PM – 7:30 PM',
     location: 'Pangle Hall'
   },
 
@@ -226,7 +226,7 @@ const SEASON_EVENTS = [
     title: 'Dress Rehearsal',
     type: 'special-rehearsal',
     details: 'Dress rehearsal',
-    time: '5:00 PM – 7:00 PM',
+    time: '6:00 PM – 7:30 PM',
     location: 'Pangle Hall'
   },
 {
@@ -664,7 +664,7 @@ const SEASON_EVENTS = [
     title: 'Late Rehearsal',
     type: 'special-rehearsal',
     details: 'Late rehearsal',
-    time: '5:00 PM – 7:00 PM',
+    time: '6:00 PM – 7:30 PM',
     location: 'Pangle Hall'
   },
 {
@@ -690,7 +690,7 @@ const SEASON_EVENTS = [
     title: 'Dress Rehearsal',
     type: 'special-rehearsal',
     details: 'Dress rehearsal',
-    time: '5:00 PM – 7:00 PM',
+    time: '6:00 PM – 7:30 PM',
     location: 'Pangle Hall'
   },
 // ── APRIL 2027 ──────────────────────────────────────────
